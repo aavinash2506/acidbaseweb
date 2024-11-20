@@ -1,0 +1,328 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #146C78;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+#content {
+  padding: 20px;
+}
+
+.tabs {
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+  background-color: #74cfdb;
+  border-right: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.tab-button:last-child {
+  border-right: none;
+}
+
+.tab-button:hover {
+  background-color: #0E91A1;
+}
+
+.tab-button.active {
+  background-color: #0E91A1;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #0E91A1;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #0E91A1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0b7583;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay.active {
+  display: flex;
+}
+
+.tab123addque {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.tab123addque h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.tab123addque form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tab123addque label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.tab123addque input[type="text"], .tab123addque select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tab123addque button {
+  margin-top: 15px;
+  background-color: #0E91A1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab123addque button:hover, .tab123addque button:active{
+  background-color: #087b8a;
+}
+
+.tab123addque .close {
+  top: 5px;
+  right: 10px;
+  background-color: rgb(245, 23, 23);
+  color: white;
+  border: none;
+  padding: 0px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tab123addque .close:hover {
+  background-color: rgb(189, 7, 7);;
+}
+.popupActions{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.tab123addque {
+  width: 400px; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.tab123addque select,
+.tab123addque input[type="text"] {
+  width: 100%; 
+  padding: 8px;
+  margin: 10px 0;
+  box-sizing: border-box; 
+}
+
+.tab123addque .popupActions button {
+  width: 100%; 
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.popupActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .nav-links a {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .header-title {
+    font-size: 20px;
+  }
+  .tab-button {
+    font-size: 16px;
+  }
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.edit-btn {
+  background-color: #0E91A1;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn:hover {
+  background-color: #056470;
+}
+
+label {
+  font-size: 16px;
+}
+
+input[type="text"], select {
+  font-size: 14px;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #2888a5;
+  outline: none;
+}
+input[type="text"]:hover, input[type="text"]:focus{
+  border-color: #057294;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #327736;
+}
+
+table .edit-btn, table button {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.addquestionbutton {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  position: relative;  
+  bottom: 0;        
+  left: 0;          
+  width: 100%;      
+  margin-top: 20px;
+  box-sizing: border-box; 
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+h2{
+  margin: 0% auto;
+  margin-top: 2%;
+  text-align: center;
+  width: fit-content;
+  font-size: 30px;
+  color: #0E91A1;
+}
+
+
+.actions{
+    display: inline-block;
+}

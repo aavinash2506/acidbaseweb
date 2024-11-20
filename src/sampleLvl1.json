@@ -1,0 +1,213 @@
+[
+    {
+      "level": "Level 1",
+      "question": "AgCl",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "BaCrO₄",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "CCl₄",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "HClO₄",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "CH₃CH₂CH₂COOH",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "HNO₂",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "C₃H₈",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "CH₃COOH",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "MgC₂O₄",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "HCN",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "CH₄",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "CaCO₃",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "Na₂S",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "K₂SO₃",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "CH₃NH₂",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "Mg(OH)₂",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "HCl",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null  
+    },
+    {
+      "level": "Level 1",
+      "question": "HNO₃",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "K₃PO₄",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "KNO₃",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "KNO₂",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "NaBr",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "KMnO₄",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "Ca(ClO₃)₂",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null  
+    },
+    {
+      "level": "Level 1",
+      "question": "NaF",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "H₂O",
+      "type": "Neutral",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "HF",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "NH₄Cl",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    },
+    {
+      "level": "Level 1",
+      "question": "NaC₂H₃O₂",
+      "type": "Base",
+      "options": null,
+      "correctAnswer": null
+    },
+    {
+      "level": "Level 1",
+      "question": "CH₃NH₃⁺",
+      "type": "Acid",
+      "options": null,
+      "correctAnswer": null 
+    }
+  ]
+  

@@ -1,0 +1,244 @@
+[
+    {
+      "level": "Level 4",
+      "question": "Concrete contains CaCO₃. You let the pH of your swimming pool get too low on a regular basis. Predict the products of the unbalanced reaction of the concrete in your pool with acidic water: CaCO₃(s) + H₃O⁺ → Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)",
+      "type": null,
+      "options": [
+        "CaCO₃ H⁺(aq) + H₂O(l)",
+        "CaO(s) + HCO₂(aq)",
+        "Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+      ],
+      "correctAnswer": "Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Gibbsite is a mineral form of aluminum hydroxide. When soil containing Gibbsite is in contact with water, a small concentration of aluminum ions is released. Predict the products of this reaction (not balanced): Al(OH)₃(s) + H₂O(l) → Al³⁺(aq) + H₂O(l) + OH⁻(aq)",
+      "type": null,
+      "options": [
+        "AlH₃(g) + O₂(g)",
+        "Al₂H₅(s)",
+        "Al³⁺(aq) + H₂O(l) + OH⁻(aq)"
+      ],
+      "correctAnswer": "Al³⁺(aq) + H₂O(l) + OH⁻(aq)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "You want to analyze a paint chip for its lead content. To do this you need to react solid PbCO₃ in the paint with acid to get the lead in a form that can be analyzed. Select the products of this reaction: PbCO₃(s) + HCl(aq) → Pb²⁺(aq) + Cl⁻(aq) + H₂CO₃(aq)",
+      "type": null,
+      "options": [
+        "PbO₂(s) + HOCl(aq)",
+        "H₂Pb(aq) + COCl₂(aq)",
+        "Pb²⁺(aq) + Cl⁻(aq) + H₂CO₃(aq)"
+      ],
+      "correctAnswer": "Pb²⁺(aq) + Cl⁻(aq) + H₂CO₃(aq)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "You want to analyze a paint chip for its lead content. To do this you need to react solid PbCrO₄ in the paint with acid to get the lead in a form that can be analyzed. Select the products of this reaction: PbCrO₄(s) + HCl(aq) → Pb²⁺(aq) + Cl⁻(aq) + H₂CrO₄(aq)",
+      "type": null,
+      "options": [
+        "PbCrH₂(s) + ClO₂(g)",
+        "PbH₂(aq) + Cl₂CrO₄(aq)",
+        "Pb²⁺(aq) + Cl⁻(aq) + H₂CrO₄(aq)"
+      ],
+      "correctAnswer": "Pb²⁺(aq) + Cl⁻(aq) + H₂CrO₄(aq)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Fish excrete ammonia, which is toxic to them. At lower pH values, ammonia is converted to a less toxic form. Select the correct products for this reaction: NH₃(aq) + H₂O(l) ↔ NH₄⁺(aq) + OH⁻",
+      "type": null,
+      "options": [
+        "NH₂(aq) + H₃O⁺(aq)",
+        "N₂(g) + H₂(g) + O₂(g)",
+        "NH₄⁺(aq) + OH⁻"
+      ],
+      "correctAnswer": "NH₄⁺(aq) + OH⁻"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Tooth enamel is an ionic compound. A pH of 5 is referred to as the critical pH since tooth enamel begins to react away below that pH value. Some soft drinks have a pH below 3. Select the correct products for tooth enamel reacting with an acidic soft drink. Cheers! Ca₅(PO₄)₃OH(s) + H₃O⁺(aq) → H₃PO₄(aq) + H₂O(l) + Ca²⁺(aq)",
+      "type": null,
+      "options": [
+        "CaOH(aq) + H₃PO₄(aq) + H₂O(l)",
+        "H₂Ca(aq) + PO₂(g) + H₂O(l)",
+        "H₃PO₄(aq) + H₂O(l) + Ca²⁺(aq)"
+      ],
+      "correctAnswer": "H₃PO₄(aq) + H₂O(l) + Ca²⁺(aq)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Biogas is a mixture of carbon dioxide and methane produced from organic matter such as food waste under anaerobic conditions. The process is catalyzed by bacteria. CH₂O → CO₂(g) + CH₄(g) The CO₂ can be removed to increase the energy content of the methane that is used as a fuel. Select the products for the reaction: CO₂(g) + 2KOH(aq) → CO₃²⁻(aq) + 2K⁺(aq) + H₂O(l)",
+      "type": null,
+      "options": [
+        "CK₂(s) + H₂O₂(aq)",
+        "COOH(aq) + 2K⁺(aq)",
+        "CO₃²⁻(aq) + 2K⁺(aq) + H₂O(l)"
+      ],
+      "correctAnswer": "CO₃²⁻(aq) + 2K⁺(aq) + H₂O(l)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Research is conducted to develop ways to remove excess CO₂ from the atmosphere. One method to remove CO₂ directly from air involves reacting CO₂ (a Lewis acid) with NaOH. The product of this reaction is then converted to solid CaCO₃. Show the products of the first step of the process: 2NaOH(aq) + CO₂(g) → Na₂CO₃(aq) + H₂O(l)",
+      "type": null,
+      "options": [
+        "Na₂O(s) + CO(g) + H₂O(l)",
+        "Na₂C(s) + H₂O(l)",
+        "Na₂CO₃(aq) + H₂O(l)"
+      ],
+      "correctAnswer": "Na₂CO₃(aq) + H₂O(l)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Forward osmosis is an experiment desalination method. The soluble ionic compound NH₄HCO₃ is added to water to cause more fresh water to flow in through a semi-permeable membrane. The added NH₄HCO₃ is then removed by heating the solution. Select the correct products for this acid-base reaction: NH₄⁺(aq) + HCO₃⁻(aq) → NH₃(g) + H₂CO₃(aq)",
+      "type": null,
+      "options": [
+        "N₂(CO₃)₃(s) + H₂(g)",
+        "N₂(g) + H₂(g) + CO₂(g)",
+        "NH₃(g) + H₂CO₃(aq)"
+      ],
+      "correctAnswer": "NH₃(g) + H₂CO₃(aq)"
+      
+    },
+    {
+      "level": "Level 4",
+      "question": "Gibbsite is a mineral form of aluminum hydroxide. When soil containing Gibbsite is in contact with acidic rain, a high concentration of aluminum ions are released that are toxic to plants and aquatic life. Predict the products of this reaction (not balanced): Al(OH)₃(s) + H⁺(aq) → Al³⁺(aq) + H₂O(l)",
+      "type": null,
+      "options": [
+        "Al³⁺(aq) + O₂(g) + H₂(g)",
+        "Al(OH)₃H⁺(aq)",
+        "Al³⁺(aq) + H₂O(l)"
+      ],
+      "correctAnswer": "Al³⁺(aq) + H₂O(l)"
+      
+    },
+    {
+        "level": "Level 4",
+        "question": "If a farmer applies ammonium nitrate to a field as a source of nitrogen for plant growth, it will change the pH of the soil. Predict the products of the reaction of ammonia with water to see how:\nNH₄⁺(aq) + H₂O(l) → NH₃(aq) + H₃O⁺(aq)",
+        "type": null,
+        "options": [
+          "NH₄²⁺(aq) + OH⁻(aq)",
+          "N₂O₃(s) + H₂(g)",
+          "NH₃(aq) + H₃O⁺(aq)"
+        ],
+        "correctAnswer": "NH₃(aq) + H₃O⁺(aq)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "Lime is added to soil to adjust its pH. Complete the equation below to see how it works:\nCaO(s) + H₂O(l) → Ca²⁺(aq) + OH⁻(aq)",
+        "type": null,
+        "options": [
+          "CaH₂(aq) + O²⁻",
+          "CaH₂O₂(s)",
+          "Ca²⁺(aq) + OH⁻(aq)"
+        ],
+        "correctAnswer": "Ca²⁺(aq) + OH⁻(aq)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "Phosphate ion is added to drinking water that passes through lead pipes. A protective layer of insoluble lead phosphate forms on the surface of the pipe. Predict what happens to the protective coating if the drinking water becomes acidic:\nPb₃(PO₄)₂(s) + H₃O⁺(aq) → Pb²⁺(aq) + H₃PO₄(aq) + H₂O(l)",
+        "type": null,
+        "options": [
+          "PbH₃⁺(aq) + PO₄³⁻(aq) + H₂O(l)",
+          "PbOH⁻(aq) + HPO₄²⁻(aq)",
+          "Pb²⁺(aq) + H₃PO₄(aq) + H₂O(l)"
+        ],
+        "correctAnswer": "Pb²⁺(aq) + H₃PO₄(aq) + H₂O(l)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "Many medicines are compounds that contain amino groups. The medicines are not very polar and are thus not water soluble. To get drugs in a form that will dissolve readily in blood, they are reacted with HCl. Predict the products of the following reaction to understand how drugs become more water soluble when reacted with HCl:\nC₆H₅NH₂(l) + HCl(aq) → C₆H₅NH₃⁺(aq) + Cl⁻(aq)",
+        "type": null,
+        "options": [
+          "C₆H₅N(aq) + H₂(g) + Cl⁻(aq)",
+          "C₆H₅NCl₂²⁻(aq) + H⁺(aq)",
+          "C₆H₅NH₃⁺(aq) + Cl⁻(aq)"
+        ],
+        "correctAnswer": "C₆H₅NH₃⁺(aq) + Cl⁻(aq)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A popular antacid uses sodium bicarbonate as its active ingredient. Predict how this compound neutralizes stomach acid:\nNaHCO₃(s) + H₃O⁺(aq) → Na⁺(aq) + H₂CO₃(aq) + H₂O(l)",
+        "type": null,
+        "options": [
+          "Na₂CO₃(aq) + H₄O²⁺",
+          "NaH₂⁺(aq) + CO₂(g) + H₂O(l)",
+          "Na⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+        ],
+        "correctAnswer": "Na⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A popular antacid uses calcium carbonate as its active ingredient. Predict how this compound neutralizes stomach acid:\nCaCO₃(s) + H₃O⁺(aq) → Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)",
+        "type": null,
+        "options": [
+          "CaH₃⁺(aq) + CO₂(g) + H₂O(l)",
+          "CaO(s) + H₂O₂(aq)",
+          "Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+        ],
+        "correctAnswer": "Ca²⁺(aq) + H₂CO₃(aq) + H₂O(l)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A popular antacid uses magnesium hydroxide as its active ingredient. Predict how this compound neutralizes stomach acid:\nMg(OH)₂(aq) + H₃O⁺(aq) → Mg²⁺(aq) + H₂O(l)",
+        "type": null,
+        "options": [
+          "MgO(s) + OH⁻(aq)",
+          "Mg⁺(aq) + H₃O⁺(aq) + H₂O(l)",
+          "Mg²⁺(aq) + H₂O(l)"
+        ],
+        "correctAnswer": "Mg²⁺(aq) + H₂O(l)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A popular antacid uses aluminum hydroxide as its active ingredient. Predict how this compound neutralizes stomach acid:\nAl(OH)₃(s) + H₃O⁺(aq) → H₂O(l) + Al³⁺(aq)",
+        "type": null,
+        "options": [
+          "Al(s) + H₂O(l)",
+          "Al(H₂O)₃ + OH⁻(aq)",
+          "H₂O(l) + Al³⁺(aq)"
+        ],
+        "correctAnswer": "H₂O(l) + Al³⁺(aq)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A popular antacid uses dihydroxyaluminum sodium carbonate as its active ingredient. Predict how this compound neutralizes stomach acid:\nNaAl(OH)₂CO₃(s) + H₃O⁺(aq) → Na⁺(aq) + Al³⁺(aq) + H₂O(l) + CO₂(g)",
+        "type": null,
+        "options": [
+          "NaAlH₂⁺(aq) + CO₂(g) + H₂O(l)",
+          "Al₂(CO₃)₃(s) + NaOH(aq) + H₂O(l)",
+          "Na⁺(aq) + Al³⁺(aq) + H₂O(l) + CO₂(g)"
+        ],
+        "correctAnswer": "Na⁺(aq) + Al³⁺(aq) + H₂O(l) + CO₂(g)"
+       
+      },
+      {
+        "level": "Level 4",
+        "question": "A buffer involved in the regulation of pH in intracellular fluid involves the reaction below. Complete the reaction below to show how the hydrogen phosphate ion can react with excess acid forming its conjugate acid:\nHPO₄²⁻(aq) + H₃O⁺(aq) → H₂PO₄⁻(aq) + H₂O(l)",
+        "type": null,
+        "options": [
+          "PO₄³⁻(aq) + H₄O⁺(aq)",
+          "H₃PO₄(aq) + OH⁻(aq)",
+          "H₂PO₄⁻(aq) + H₂O(l)"
+        ],
+        "correctAnswer": "H₂PO₄⁻(aq) + H₂O(l)"
+       
+      }
+    ]
+
+  

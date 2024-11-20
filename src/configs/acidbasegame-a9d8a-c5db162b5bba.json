@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "acidbasegame-a9d8a",
+  "private_key_id": "c5db162b5bba07bb135d09e091591553b191ab18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDhQFVteeXB+Z0Z\nv7Pzkm4RV2vvBMHlasOEm3/FBU/bQQjJWMk+Ed2LL0GqmSRvnu4DVQKEi7Cm79dN\n8rPIOs418Nxcb1bMhrdDN8ECebafiHDZMC3GFeQeHsXWTFWPcsJYRXL14i+zxUvA\n2ydTK3jF5mxxv77UTLts3R4bBAizO19+3c5HBO49lrDuOahncdyQeeZhmLo1IKXL\n9ocO/CCmZTIsBfdQl94b0UrNIk+AnWKKZIwMCJ/US9ZKTQbvmswvnjKvnTLWXR1o\nupXanLdoy32UZ5As7jMWZwYbn2ig/IxRciXMFgOPKYj6uq/obApdXPxhva1dG01L\n5x2VnU3nAgMBAAECggEADyzwacxunZ+dj/XfFSfmYSYMpYZ33Gb8U9t4w43/ZVF/\nsAuv8ziXk8r+l5RzD09xJamn3m+IL+xfYGcGPxUx02cuJs7G1Zy14sIc2iKCb+5s\nppVHtYgVXa92Zguv2qxBSlp+IPFjhARk0tIbrM90TDuhTsCRBhNCsADtsvrrQyKP\n3mxaJbuV0d4W54/ZyCwF6os8v00wKaWSgC8dRoxNzzw49Fx0EHOitcDcKUjgLHcG\nZHzPui8sCYhPl5qlZO6r87n1mlJCL4qp/n2VLZjZIQx/XLS7zXjwaYM70wk4hT8A\nD6UrqymhPOsEvvIG5CG1gVlYinjOTh1cgSUREWyLcQKBgQDzQnnQ1iEUgsnccdk7\nkRdtvg1VhET1A5yQP3wDpQI7RFuZcme3bm8hgc1ADuElbEfYDY8UUYNGVeN/qmXg\nVl59t9WR5nRHOgZFMm7KclfaZ2I65Y5BBy4HnQsW/IxWTm+V1cEKQxrHpXt7HWp3\n2/mBFYhQPb1xzzZcQwblZoxxrQKBgQDtDGi/+j2DXx664QY/Jd/IAClF7Gfcwxlk\nkemOfQSVDLpinY03rNXMBWFu2LXjxNUV3FCQy6F56+402L95L6t/xCriettGfvPD\nxmGJb2sWfR98hAP9zynG6TQLNOQ/5/kTyJQyNIa1yw083m2a1kJvINuPH2aApsSD\np83O5x24YwKBgQCqZLwTToppZZukMJMrqFwy4NdSOY5b2aXHXNCvdNv1S9Klz39a\n+54YaGWvIz0OC6Tfb8/zOY2srOjoOiGWXKlfgm+0/Soh4kEWI1d7s1BaieRCwR09\n65uQda6Y8VoT8mkzGUFYwNx3UDEIcfhr8Mf6ZWzQWA7lM3IuejzQX16tGQKBgQDW\n/e03SM9nierGFXbj6QbYTwUf7PSaLbynEQth9xMj18Jn1HsS5seVXb/rl9MH/CpC\nxGmxmW4ftRJ7jaXDVK/XlmRKuqCLhHKzugYWbx4R7HOVK+qu1KgQRsuz6kmliE/I\nWJ/IFQmkcb/U1+tShkcEoSlg2lrODfKncZbgs46p/wKBgQDilplo+YrN7FxLjCzp\nMjbJbJ3iTr8K7+jprnk10OI7Cdwm84kcH8FxGh4xFL5MhND76jIDOHQKFmBAXZy8\nfmzWZ+KjVb8hZzejkSeGtOa7nC4YWEGa/tfmMi3dGNdgo1mGDJ9KJXFKZnpBX8FW\nnrD9EyKnRySVXy+QeytRKcwKpQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "acidbase-game@acidbasegame-a9d8a.iam.gserviceaccount.com",
+  "client_id": "115192067957073327325",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/acidbase-game%40acidbasegame-a9d8a.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "acidbase",
+  "version": "1.0.0",
+  "description": "Acidbase-Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^13.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

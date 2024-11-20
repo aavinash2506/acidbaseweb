@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions</title>
+  <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+  <header>
+    <div class="header-title">My App</div>
+    <div class="nav-links">
+      <a href="questions.html" class="nav" id="questions" class="active">Questions</a>
+      <a href="scores.html" class="nav" id="scores">Scores</a>
+      <a href="logout.html" class="nav" id="logout">Logout</a>
+    </div>
+  </header>
+
+  <h2>Welcome to questions section</h2>
+  <div id="content">
+    <div class="tabs">
+      <button class="tab-button active" onclick="openTab(event, 'content-1')">Level 1, 2, 3</button>
+      <button class="tab-button" onclick="openTab(event, 'content-4')">Level 4</button>
+    </div>
+
+    <!-- For each Level Tab Content -->
+    <div class="tab-content active" id="content-1">
+      <button class="addquestionbutton" onclick="openPopup('Level 1')">Add Question</button>
+      <table class="table" id="level1-questions">
+        <tr><th>Question</th><th>Type</th><th>Actions</th></tr>
+      </table>
+    </div>
+
+    <div class="tab-content" id="content-2">
+      <button class="addquestionbutton" onclick="openPopup('Level 2')">Add Question</button>
+      <table class="table" id="level2-questions">
+        <tr><th>Question</th><th>Type</th><th>Actions</th></tr>
+      </table>
+    </div>
+
+    <div class="tab-content" id="content-3">
+      <button class="addquestionbutton" onclick="openPopup('Level 3')">Add Question</button>
+      <table class="table" id="level3-questions">
+        <tr><th>Question</th><th>Type</th><th>Actions</th></tr>
+      </table>
+    </div>
+
+    <div class="tab-content" id="content-4">
+      <button class="addquestionbutton" onclick="openPopupLevel4()">Add Question</button>
+      <table class="table" id="level4-questions">
+        <tr><th>Question</th><th>Option 1</th><th>Option 2</th><th>Option 3</th><th>Correct Answer</th><th>Actions</th></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="tab123addque" id="popup-form">
+      <h3>Add Question</h3>
+      <form id="questionForm">
+        <input type="hidden" id="editMode" value="false"> 
+        <select id="type" required>
+          <option value="">Select Type</option>
+          <option value="Acid">Acid</option>
+          <option value="Base">Base</option>
+          <option value="Neutral">Neutral</option>
+        </select>
+        <input type="text" id="question" placeholder="Enter the question" required>
+        <div class="popupActions">
+          <button class="close" onclick="closePopup()">Close</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay" id="editoverlay">
+    <div class="tab123addque" id="edit-popup-form">
+      <h3>Edit Question</h3>
+      <form id="editquestionForm">
+        <input type="hidden" id="editMode" value="false"> 
+        <select id="edittype" required>
+          <option value="">Select Type</option>
+          <option value="Acid">Acid</option>
+          <option value="Base">Base</option>
+          <option value="Neutral">Neutral</option>
+        </select>
+        <input type="text" id="editquestion" placeholder="Enter the question" required>
+        <div class="popupActions">
+          <button class="close" onclick="closeeditPopup()">Close</button>
+          <button type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay-level-4" style="display: none;">
+    <div class="tab123addque" id="popup-form-level-4">
+      <h3 id="edit4">Add Question</h3>
+      <form id="questionFormLevel4">
+        <input type="hidden" id="editMode4" value="false">
+        <input type="text" id="questionLevel4" placeholder="Enter the question" required>
+        <input type="text" id="option1" placeholder="Enter option1" required>
+        <input type="text" id="option2" placeholder="Enter option2" required>
+        <input type="text" id="option3" placeholder="Enter option3" required>
+        <label for="correctAnswer">Correct Answer:</label>
+        <select id="correctAnswer" required>
+          <option value="" selected>Select Answer</option>
+          <option value="Option-1">Option 1</option>
+          <option value="Option-2">Option 2</option>
+          <option value="Option-3">Option 3</option>
+        </select>
+        <div class="popupActions">
+          <button class="close" onclick="closePopupLevel4()">Close</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay" id="editoverlay-level-4" style="display: none;">
+    <div class="tab123addque" id="edit-popup-form-level-4">
+      <h3 id="edit4">Edit Question</h3>
+      <form id="editquestionFormLevel4">
+        <input type="hidden" id="editMode4" value="false">
+        <input type="text" class="question" id="editquestionLevel4" placeholder="Enter the question" required>
+        <input type="text" id="editoption1" placeholder="Enter option1" required>
+        <input type="text" id="editoption2" placeholder="Enter option2" required>
+        <input type="text" id="editoption3" placeholder="Enter option3" required>
+        <label for="editcorrectAnswer">Correct Answer:</label>
+        <select id="editcorrectAnswer" required>
+          <option value="" selected>Select Answer</option>
+          <option value="Option-1">Option 1</option>
+          <option value="Option-2">Option 2</option>
+          <option value="Option-3">Option 3</option>
+        </select>
+        <div class="popupActions">
+          <button class="close" onclick="closeeditPopupLevel4()">Close</button>
+          <button type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My App. All rights reserved.</p>
+  </footer>
+  <script src="questions.js"></script>
+</body>
+</html>

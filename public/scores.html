@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores Page</title>
+    <link rel="stylesheet" href="scores.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">My App</div>
+        <div class="nav-links">
+          <a href="questions.html" id="questions">Questions</a>
+          <a href="scores.html" id="scores">Scores</a>
+          <a href="#" id="logout">Logout</a>
+        </div>
+    </header>
+
+    
+    <h2>Student Scores</h2>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search student" onkeyup="filterTable()">
+    </div>
+
+    <table id="scoresTable">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Email Id</th>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>John Doe</td>
+                <td>85</td>
+            </tr>
+            <tr class="even">
+                <td>Jane Smith</td>
+                <td>90</td>
+            </tr>
+            <tr class="odd">
+                <td>Emma Brown</td>
+                <td>78</td>
+            </tr>
+            <tr class="even">
+                <td>Michael Johnson</td>
+                <td>92</td>
+            </tr>
+            <tr class="odd">
+                <td>Alice Williams</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+      <p>&copy; 2024 My App. All rights reserved.</p>
+    </footer>
+  
+    <script src="scores.js"></script>
+</body>
+</html>

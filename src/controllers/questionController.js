@@ -95,7 +95,7 @@ exports.getQuestions = async (req, res) => {
     }
   };
 
-  const data = require('../sampleLvl4.json');
+  const data = require('../sampleLvl1.json');
  
 const importJSON = async () => {
   try {
@@ -114,4 +114,4 @@ const importJSON = async () => {
 };
 
 
-  // importJSON();
+// importJSON();

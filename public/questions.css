@@ -237,6 +237,7 @@ button:hover {
 
 .tab-content.active {
   display: block;
+  margin-bottom: 100px !important;
 }
 
 .edit-btn {
@@ -300,7 +301,7 @@ footer {
   color: white;
   text-align: center;
   padding: 25px;
-  position: relative;  
+  position: fixed;  
   bottom: 0;        
   left: 0;          
   width: 100%;      

@@ -26,8 +26,8 @@ exports.getStudentsScores = async (req, res) => {
                 level4: userData.highest_score_lvl_4 || null,
             });
         });
-
-        return res.status(200).json(studentsData);
+        let success = true
+        return res.status(200).send({ studentsData, success });
     } catch (err){
         console.log("Error ", err)
     }

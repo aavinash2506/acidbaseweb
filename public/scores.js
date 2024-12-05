@@ -20,13 +20,15 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('/api/students/studentscores')
         .then(response => response.json())
         .then(data => {
-            const tableBody = document.querySelector("#scoresTable tbody");
+            console.log(data.success)
+            if(data.studentsData){
+                const tableBody = document.querySelector("#scoresTable tbody");
             tableBody.innerHTML = '';
 
             console.log(data)
-            data.forEach(student => {
+            data.studentsData.forEach(student => {
                 const row = document.createElement('tr');
-                row.classList.add((data.indexOf(student) % 2 === 0) ? 'even' : 'odd');
+                row.classList.add((data.studentsData.indexOf(student) % 2 === 0) ? 'even' : 'odd');
 
                 const nameCell = document.createElement('td');
                 nameCell.textContent = student.name ;
@@ -55,7 +57,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 tableBody.appendChild(row);
             });
+            }
+            
         })
         .catch(error => console.error('Error fetching student data:', error));
 });
+
+document.getElementById('downloadBtn').addEventListener('click', function () {
+    let table = document.getElementById('scoresTable');
+    let workbook = XLSX.utils.table_to_book(table, { sheet: "Scores" });
+    XLSX.writeFile(workbook, 'StudentScores.xlsx');
+});
+
 

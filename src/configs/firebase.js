@@ -4,7 +4,7 @@ const { getAuth } = require("firebase/auth");
 const path = require("path");
 const dotenv = require("dotenv").config();
 
-const serviceAccount = require("./acidbasegame-a9d8a-c5db162b5bba.json");
+const serviceAccount = JSON.parse(process.env.SERVICE_ACCOUNT_JSON);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),

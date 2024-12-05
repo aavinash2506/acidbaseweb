@@ -36,7 +36,20 @@ header {
   justify-content: center;
   margin-top: 20px;
 }
+button {
+  background-color: #0E91A1;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+}
 
+button:hover {
+  background-color: #0b7583;
+}
 #searchInput {
   padding: 10px;
   font-size: 16px;
@@ -103,7 +116,7 @@ footer {
   color: white;
   text-align: center;
   padding: 25px;
-  position: relative;  
+  position: fixed;  
   bottom: 0;        
   left: 0;          
   width: 100%;      
